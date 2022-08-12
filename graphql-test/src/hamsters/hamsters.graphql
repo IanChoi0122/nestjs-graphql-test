@@ -1,0 +1,24 @@
+type Hamster {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input CreateHamsterInput {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input UpdateHamsterInput {
+  id: Int!
+}
+
+type Query {
+  hamsters: [Hamster]!
+  hamster(id: Int!): Hamster
+}
+
+type Mutation {
+  createHamster(createHamsterInput: CreateHamsterInput!): Hamster!
+  updateHamster(updateHamsterInput: UpdateHamsterInput!): Hamster!
+  removeHamster(id: Int!): Hamster
+}

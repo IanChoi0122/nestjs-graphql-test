@@ -10,15 +10,15 @@ import { HamstersModule } from './hamsters/hamsters.module';
 
 @Module({
   imports: [
-    GraphQLModule.forRootAsync<ApolloDriverConfig>({
+    GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
-      useFactory: () => ({
+      // useFactory: () => ({
         typePaths: ['./**/*.graphql'],
         definitions: {
           path: join(process.cwd(), 'src/graphql.ts'),
           outputAs: 'class',
         },
-      }),
+      // }),
     }),
     CatModule,
     DogModule,

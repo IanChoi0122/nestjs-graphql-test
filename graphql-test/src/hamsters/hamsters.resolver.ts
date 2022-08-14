@@ -14,6 +14,7 @@ export class HamstersResolver {
 
   @Query('hamsters')
   findAll() {
+    console.log('finAll hamster')
     return this.hamstersService.findAll();
   }
 

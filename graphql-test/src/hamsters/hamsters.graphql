@@ -1,6 +1,7 @@
 type Hamster {
   # Example field (placeholder)
   exampleField: Int
+  test: String
 }
 
 input CreateHamsterInput {

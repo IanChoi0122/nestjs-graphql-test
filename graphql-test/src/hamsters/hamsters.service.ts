@@ -9,7 +9,12 @@ export class HamstersService {
   }
 
   findAll() {
-    return `This action returns all hamsters`;
+    return [
+      {
+        exampleField: 1,
+        test: 'test'
+      }
+    ]
   }
 
   findOne(id: number) {

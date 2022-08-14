@@ -1,0 +1,24 @@
+type Phone {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input CreatePhoneInput {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input UpdatePhoneInput {
+  id: Int!
+}
+
+type Query {
+  phones: [Phone]!
+  phone(id: Int!): Phone
+}
+
+type Mutation {
+  createPhone(createPhoneInput: CreatePhoneInput!): Phone!
+  updatePhone(updatePhoneInput: UpdatePhoneInput!): Phone!
+  removePhone(id: Int!): Phone
+}

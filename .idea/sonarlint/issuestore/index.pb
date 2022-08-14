@@ -27,12 +27,8 @@ c
 3graphql-test/src/hamsters/hamsters.resolver.spec.ts,a/4/a44fc13fbfda009a198e9efd4c8c8a7c4ae06eb9
 b
 2graphql-test/src/hamsters/hamsters.service.spec.ts,1/7/17a931bea37ee257c9a35046975ee797f62ae7f6
-]
--graphql-test/src/hamsters/hamsters.service.ts,d/9/d906de8eeff9d69dad4183ead74d693ae10b391d
 \
 ,graphql-test/src/hamsters/hamsters.module.ts,7/a/7ae7db3a63c78f308675ec101ec7ad3f64a29f03
-^
-.graphql-test/src/hamsters/hamsters.resolver.ts,4/9/49212ea673430f0abcd5311bb5ae2bc0001be958
 e
 5graphql-test/src/hamsters/dto/create-hamster.input.ts,d/6/d68a7d1877916c76592d1d58aa74a57bab4b1080
 d
@@ -43,8 +39,6 @@ N
 graphql-test/package-lock.json,3/4/341f4cc30d1d62ca442e691036edda781e4cc39b
 S
 #graphql-test/src/dog/dog.service.ts,b/f/bf4deb23e6fea64c9458a5b7f19624eba5bf1bf3
-T
-$graphql-test/src/cat/cat.resolver.ts,b/2/b2fd796d78391a70a7ac301083cc0f160a1a4ad3
 X
 (graphql-test/src/dog/dog.service.spec.ts,c/e/ce4c016d00e89e9a40408052735f89732164cb19
 Y
@@ -57,8 +51,6 @@ R
 "graphql-test/src/dog/dog.module.ts,0/4/04862f680a71c2490591f078a5a32367cdc0a4e9
 S
 #graphql-test/src/cat/cat.service.ts,7/d/7d6c0befa0c21e047dc440374c58a8877ecf0c4d
-T
-$graphql-test/src/dog/dog.resolver.ts,3/1/3193c96516efe3fd7e466f45bf5a9f14b42686c1
 \
 ,graphql-test/src/dog/dto/create-dog.input.ts,3/b/3b8e14bc9bd8f170e92c747ddc3f41db94cd816a
 Y
@@ -73,3 +65,8 @@ Y
 +graphql-test/src/dog/entities/dog.entity.ts,f/e/feba551f1a93b1146d8bbd5a8645dfbb5d4bc594
 [
 +graphql-test/src/cat/entities/cat.entity.ts,d/5/d5ce0ac8d8784095c4af824ccc214199dc89c7a7
+P
+ graphql-test/src/dog/dog.graphql,b/3/b3f3d1fd35cf7654ecafe9f8e796446f6fe93a31
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

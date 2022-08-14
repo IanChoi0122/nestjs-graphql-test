@@ -3,10 +3,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import {GraphQLModule} from "@nestjs/graphql";
 import {ApolloDriver, ApolloDriverConfig} from "@nestjs/apollo";
-import { CatModule } from './cat/cat.module';
 import { join } from 'path';
-import { DogModule } from './dog/dog.module';
 import { HamstersModule } from './hamsters/hamsters.module';
+import { PhonesModule } from './phones/phones.module';
 
 @Module({
   imports: [
@@ -20,9 +19,8 @@ import { HamstersModule } from './hamsters/hamsters.module';
         },
       // }),
     }),
-    CatModule,
-    DogModule,
     HamstersModule,
+    PhonesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
